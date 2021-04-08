@@ -11,7 +11,7 @@ async function getapi(url){
         )
     });
 
-    var responseJson = await response.json();
+    const responseJson = await response.json();
 
     console.log(responseJson.data);
 
